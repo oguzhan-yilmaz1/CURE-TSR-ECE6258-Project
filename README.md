@@ -18,9 +18,6 @@ Create a directory like follows:
 - Optionally, tensorflow-cpu for tensorboard
 
 
-### Alternative download for Dataset
-wget "https://ieee-dataport.s3.amazonaws.com/open/708/CURE-TSR.zip?response-content-disposition=attachment%3B%20filename%3D%22CURE-TSR.zip%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJOHYI4KJCE6Q7MIQ%2F20201201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201201T063617Z&X-Amz-SignedHeaders=Host&X-Amz-Expires=86400&X-Amz-Signature=05e3312a718088957c29dd8043558c28333b9de14974263bdc50ea76c734f7aa"
-
 ### Usage
 
 ```
