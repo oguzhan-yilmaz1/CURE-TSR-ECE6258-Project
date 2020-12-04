@@ -60,7 +60,9 @@ class EncodeCNN(nn.Module):
 
     def forward(self, x):
         x = F.relu(self.encconv1(x))
+        print(x.shape)
         x = F.relu(self.encconv2(x))
+        print(x.shape)
         x = F.relu(self.enclin1(x))
         x = F.relu(self.classify1(x))
         # x = self.cnndrop(x)
